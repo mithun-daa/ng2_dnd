@@ -1,0 +1,3 @@
+<ul>
+  <todo *ngFor="let todo of todos" [todo]="todo" [makeDraggable]="todo" makeDroppable (dropped)="onDrop($event, todo)"></todo>
+</ul>

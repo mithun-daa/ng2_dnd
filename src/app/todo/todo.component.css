@@ -1,0 +1,14 @@
+li {
+    list-style: none;
+    border: 1px solid #DDD;
+    width: 300px;
+    border-radius: 5px;
+    padding: 5px 20px;
+    background-color: ghostwhite;
+    margin: 5px;
+    cursor: move;   
+}
+
+.drag-src {
+    opacity: 0.4;
+}
